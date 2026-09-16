@@ -124,3 +124,28 @@ Adult-Income-Prediction/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+
+
+## 🌐 Run the Streamlit Application
+
+You can run this project locally by either cloning or forking the repository.
+
+### Option 1: Fork the Repository
+
+1. Open this GitHub repository.
+2. Click the **Fork** button in the top-right corner.
+3. Select your GitHub account.
+4. Open your forked repository.
+5. Click **Code → Copy HTTPS URL**.
+
+### Option 2: Clone the Repository
+
+Open your terminal and run:
+
+```bash
+git clone https://github.com/nafiya0/adult-income-prediction.git 
+
+git clone https://github.com/nafiya0/adult-income-prediction.git
+cd adult-income-prediction
+pip install -r requirements.txt
+streamlit run app.py
